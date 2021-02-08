@@ -9,7 +9,7 @@ public class Zad1 {
 
 	public static int xMethod(int n) {
 		int sum=0;
-		for(int i=1; i<=5; i++) {
+		for(int i=1; i<=n; i++) {
 			sum+=i;
 		}
 	 return sum;

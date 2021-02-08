@@ -12,8 +12,6 @@ public class Zad3 {
 	public static int methodRecursion(int n) {
 		if (n == 0) {
 			return 1;
-		} else if (n == 1) {
-			return 2;
 		} else {
 			return 2 * methodRecursion(n - 1);
 		}

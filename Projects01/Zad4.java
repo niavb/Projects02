@@ -11,21 +11,20 @@ public class Zad4 {
 		double x = sc.nextInt();
 		System.out.println(methodRecursion(3,x));
 		System.out.println(methodInteration(3,x));
+		sc.close();
 
 	}
 	
 	public static double methodRecursion(int n, double x) {
 		if (n == 0) {
 			return 1;
-		} else if (n == 1) {
-			return x;
 		} else {
 			return x * methodRecursion(n - 1, x);
 		}
 	}
 
 	public static double methodInteration(int n, double x) {
-		int sum = 1;
+		double sum = 1;
 		for (int i = 0; i < n; i++) {
 			sum *= x;
 		}
