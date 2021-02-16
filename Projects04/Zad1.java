@@ -15,6 +15,7 @@ public class Zad1 {
        else
              return foo(y, x % y);
     }
+	//finds NOD
 
 
 }
