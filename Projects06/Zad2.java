@@ -24,10 +24,10 @@ public class Zad2 {
 		int n = list.size();
 	    Random random = new Random();
 	    for (int i = 0; i < n; i++) {
-	      int change = i + random.nextInt(n - i);
-	      E helper = list.get(i);
+	      int change = random.nextInt(n);
+	      E elementToChange = list.get(i);
 	      list.set(i, list.get(change));
-	      list.set(change, helper);
+	      list.set(change, elementToChange);
 	    }
 	}
 	
