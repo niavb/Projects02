@@ -33,7 +33,7 @@ public class MazeControll extends JPanel {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				// TODO Auto-generated method stub
-				mazePanel.cleanPath;
+				mazePanel.cleanPath();
 			}
 			
 		});
