@@ -1,4 +1,4 @@
-package project02;
+package app;
 
 public class HabitTrackerControll {
 
