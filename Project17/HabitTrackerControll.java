@@ -65,7 +65,7 @@ public class HabitTrackerControll extends JPanel{
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				// TODO Auto-generated method stub
-				
+				htPanel.addHabitRow("src/project02/savedProgress.txt");
 			}
 			
 		});

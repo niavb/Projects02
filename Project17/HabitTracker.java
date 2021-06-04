@@ -16,8 +16,8 @@ public class HabitTracker {
 		for (int i = 0; i < habitsRow; i++) {
 			String line = in.nextLine();
 			String[] numbers = line.split(", ");
-			this.table[i] = new int[8];
-			for (int j = 0; j < 8; j++) {
+			this.table[i] = new int[7];
+			for (int j = 0; j < 7; j++) {
 				this.table[i][j] = Integer.parseInt(numbers[j]);
 			}
 		}
